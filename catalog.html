@@ -34,11 +34,21 @@
   	<main class="container">
   		<div>
   			<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-  				<span>ГЛАВНАЯ</span> <span>МАГАЗИН</span> <span>СРЕДСТВА ДЛЯ УХОДА</span>
+  			<ul class="breadcrumbs">
+  				<li>
+  					<a href="#">ГЛАВНАЯ</a>
+  				</li>
+  				<li>
+  				 	<a href="#">МАГАЗИН</a>
+  				</li> 
+  				<li>
+  					<a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+  				</li>
+  			</ul>	
   		</div>
   		<div class="maker">
   			<h2 class="maker-title">ПРОИЗВОДИТЕЛИ:</h2>
-  				<form class="maker-type" action="https://barbershop.ru" method="post">
+  				<form class="maker-type" action="https://echo.htmlacademy.ru" method="post">
   					<label>
   						<input type="checkbox" name="makers" value="BofC">
   						BAXTER OF CALIFORNIA
@@ -62,62 +72,62 @@
   					<label>
   						<input type="checkbox" name="makers" value="Am_Cr">
   						AMERICAN CREW
-  					</label>
-  				</form>  			
+  					</label>  				  			
   		</div>
-  		<div class="group-produkt">
-  			<h2 class="produkt">ГРУППЫ ТОВАРОВ:</h2>
-  				<form class="produkt-type" action="https://barbershop.ru" method="post">
+  		<div class="group-product">
+  			<h2 class="product">ГРУППЫ ТОВАРОВ:</h2>  			
   					<label>
-  						<input type="radio" name="produkt" value="razor">
+  						<input type="radio" name="product" value="razor">
   						БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
   					</label>
   					<label>
-  						<input type="radio" name="produkt" value="care">
+  						<input type="radio" name="product" value="care">
   						СРЕДСТВА ДЛЯ УХОДА
   					</label>
   					<label>
-  						<input type="radio" name="produkt" value="accessories">
+  						<input type="radio" name="product" value="accessories">
   						АКСЕСУАРЫ
   					</label>
-  					<button class="look" type="button">ПОКАЗАТЬ</button>
+  					<button class="look" type="submit">ПОКАЗАТЬ</button>
   				</form>  			
   		</div>
   		<div class="item">
   			<article>
-  				<img src="http://placehold.it/150x100" alt="">
+  				<a href="#"> <img src="http://placehold.it/150x100" alt=""></a>
   				<p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
-  				<span class="price">2900 РУБ.</span> <button class="buy" type="button">КУПИТЬ</button>
+  				<p class="price">2900 РУБ. <a href="#" class="buy">КУПИТЬ</a></p>
   			</article>
   			<article>
-  				<img src="http://placehold.it/150x100" alt="">
+  				<a href="#"> <img src="http://placehold.it/150x100" alt=""></a>
   				<p>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</p>
-  				<span class="price">750 РУБ.</span> <button class="buy" type="button">КУПИТЬ</button>
+  				<p class="price">750 РУБ.<a href="#" class="buy">КУПИТЬ</a></p>
   			</article>
   			<article>
-  				<img src="http://placehold.it/150x100" alt="">
+  				<a href="#"> <img src="http://placehold.it/150x100" alt=""></a>
   				<p>Гель для волос "SUAVECITO"</p>
-  				<span class="price">290 РУБ.</span> <button class="buy" type="button">КУПИТЬ</button>
+  				<p class="price">290 РУБ.<a href="#" class="buy">КУПИТЬ</a></p>
   			</article>
   			<article>
-  				<img src="http://placehold.it/150x100" alt="">
+  				<a href="#"> <img src="http://placehold.it/150x100" alt=""></a>
   				<p>Глина для укладки волос "AMERICAN CREW"</p>
-  				<span class="price">500 РУБ.</span> <button class="buy" type="button">КУПИТЬ</button>
+  				<p class="price">500 РУБ.<a href="#" class="buy">КУПИТЬ</a></p>
   			</article>
   			<article>
-  				<img src="http://placehold.it/150x100" alt="">
+  				<a href="#"> <img src="http://placehold.it/150x100" alt=""></a>
   				<p>Гель для волос "AMERICAN CREW"</p>
-  				<span class="price">300 РУБ.</span> <button class="buy" type="button">КУПИТЬ</button>
+  				<p class="price">300 РУБ.<a href="#" class="buy">КУПИТЬ</a></p>
   			</article>
   			<article>
-  				<img src="http://placehold.it/150x100" alt="">
+  				<a href="#"> <img src="http://placehold.it/150x100" alt=""></a>
   				<p>Набор для бритья "BAXTER OF CALIFORNIA"</p>
-  				<span class="price">3900 РУБ.</span><button class="buy" type="button">КУПИТЬ</button>
+  				<p class="price">3900 РУБ.<a href="#" class="buy">КУПИТЬ</a></p>
   			</article>
-  					<a href="#" class="one"></a>
-  					<a href="#" class="two"></a>
-  					<a href="#" class="tree"></a>
-  					<a href="#" class="four"></a>
+  			<div>
+  					<a href="#" class="pagination-btn">1</a>
+  					<a class="pagination-btn" active>2</a>
+  					<a href="#" class="pagination-btn">3</a>
+  					<a href="#" class="pagination-btn">4</a>
+  			</div>
   			
   		</div>
   	</main>
